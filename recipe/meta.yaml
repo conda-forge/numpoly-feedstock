@@ -1,4 +1,4 @@
-{% set version = "0.1.8" %}
+{% set version = "0.1.9" %}
 
 package:
   name: numpoly
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://github.com/jonathf/numpoly/archive/v{{ version }}.tar.gz
-  sha256: 1c8a7b1343abbe0f407e1f0cbdfbd0270cfab8eef059d9a45f985b076f854534
+  sha256: d4d1c99609dd0bb2dd5932dfe82202733c6486d66c2e9701eb4b0034d46097dd
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
