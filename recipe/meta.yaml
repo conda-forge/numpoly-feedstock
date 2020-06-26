@@ -1,4 +1,4 @@
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: numpoly
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/jonathf/numpoly/archive/v{{ version }}.tar.gz
-  sha256: 415646558c368b49a15598311c22e9fe8c49148a5041145966c8b62cd1064518
+  sha256: caf9520ca0ec6d301d42275c9e872f01c5a8e8a316014175dd9efc66002b57d2
 
 build:
   number: 0
