@@ -5,7 +5,7 @@ Home: https://github.com/jonathf/numpoly
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Numpy compatible polynomial representation
 
