@@ -1,11 +1,11 @@
-About numpoly
-=============
+About numpoly-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/numpoly-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jonathf/numpoly
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/numpoly-feedstock/blob/main/LICENSE.txt)
 
 Summary: Numpy compatible polynomial representation
 
