@@ -19,6 +19,7 @@ requirements:
     - setuptools
     - pip
     - poetry
+    - cython
   run:
     - python >=3.5
     - six
