@@ -20,12 +20,12 @@ requirements:
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
   host:
-    - python >=3.6
+    - python
     - setuptools
     - pip
     - poetry
   run:
-    - python >=3.6
+    - python
     - six
     - numpy
     - setuptools
