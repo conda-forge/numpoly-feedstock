@@ -25,6 +25,7 @@ requirements:
     - pip
     - poetry
     - cython
+    - numpy
   run:
     - python
     - six
